@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\backend">
+      <UniqueIdentifier>{b2a237d4-de01-4eb9-8e91-348b6a1f0e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{650d0a3b-3ac6-41a9-bd95-2f10845692bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\backend\dx12">
+      <UniqueIdentifier>{9ac25961-4267-492f-b6e2-b36c1f387307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\backend\vulkan">
+      <UniqueIdentifier>{aeb5d302-4495-4805-9307-71bf343dd5b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\DX12\DxRenderer.cpp">
+      <Filter>Source Files\backend\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\stb_image\src\libstb.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\IRenderer.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Utils.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Image.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\DX12\CD3DX12.h">
+      <Filter>Source Files\backend\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\DX12\DxRenderer.h">
+      <Filter>Source Files\backend\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\DX12\FrameResource.h">
+      <Filter>Source Files\backend\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Camera.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Mesh.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\dx12\Structs.h">
+      <Filter>Source Files\backend\dx12</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
